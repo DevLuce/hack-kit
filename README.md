@@ -48,6 +48,30 @@ VALIDATION.md               이 도구 모음 자체의 검증 범위
 양식은 과제에 도움이 되는 경우 필요한 부분만 작업 공간에 복사해 사용합니다.
 양식의 빈칸이나 예시를 확인된 사실로 바꾸지 마세요.
 
+## 외부 참고: Superpowers
+
+확인일: 2026-10-29. 공식 저장소: [obra/superpowers](https://github.com/obra/superpowers).
+
+Superpowers는 설계·계획·테스트·리뷰 등을 조합하는 코딩 에이전트용 개발 워크플로 모음입니다.
+이 키트의 이해·실행·검증 흐름과 비교해볼 참고 후보이며, 먼저 살펴볼 Skill은 다음과 같습니다.
+
+| Skill | 용도 | 공식 원문 |
+| --- | --- | --- |
+| systematic-debugging | 오류를 재현하고 증거로 원인을 좁힌 뒤 수정할 때 참고 | [SKILL.md](https://github.com/obra/superpowers/blob/main/skills/systematic-debugging/SKILL.md) |
+| verification-before-completion | 실제 검증 명령의 출력·종료 코드를 확인한 뒤 완료를 보고할 때 참고 | [SKILL.md](https://github.com/obra/superpowers/blob/main/skills/verification-before-completion/SKILL.md) |
+
+현재 이 저장소에는 **참고 링크와 용도만 기록**했습니다. Superpowers 원본을 복제·설치하거나
+자동 활성화하지 않았고, 이 키트와 결합한 실제 AI 작업 흐름도 검증하지 않았습니다.
+`VALIDATION.md`의 테스트 결과는 이 키트 자체의 실행 도구에 관한 것입니다.
+
+활용 여부는 작은 연습 과제에서 하나씩 비교해 판단합니다. 원인 파악·오류 발견·설명에 도움이 되는지와
+소요 시간을 확인하세요. 전체 워크플로에는 작업 분리·리뷰 등의 절차도 있으므로 필요한 범위부터 검토합니다.
+유명한 도구라는 이유만으로 해당 과제나 제한 시간에 적합하다고 가정하지 않습니다.
+
+Codex 적용 방법은 [원본의 최신 안내](https://github.com/obra/superpowers#codex-cli)와 제공 환경의 규정을 확인하세요.
+원본의 설치 안내가 있어도 실제 응시 환경에서 설치·설정 변경이 허용되거나 작동한다고 확인된 것은 아닙니다.
+사용했다면 가져온 주소·커밋·라이선스·적용 범위와 검증 결과를 판단 기록에 남깁니다.
+
 ## 검증 명령 실행 도구
 
 **검증할 과제의 디렉터리에서** 실행하세요. 아래 `KIT`은 Clone한 저장소의 실제 경로로 바꿉니다.
